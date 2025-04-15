@@ -23,3 +23,4 @@
 /Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/obj/Debug/net9.0/AutogenDevelopmentTeam.Console.pdb
 /Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/obj/Debug/net9.0/AutogenDevelopmentTeam.Console.genruntimeconfig.cache
 /Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/obj/Debug/net9.0/ref/AutogenDevelopmentTeam.Console.dll
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/obj/Debug/net9.0/AutogenDevelopmentTeam.Console.sourcelink.json
