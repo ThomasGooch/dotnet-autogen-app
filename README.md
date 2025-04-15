@@ -20,12 +20,6 @@ dotnet-autogen-app
 │   │   └── ApplicationBuilder.cs
 │   └── Models
 │       └── Message.cs
-├── AutogenDevelopmentTeam.Core
-│   ├── AutoGen.Core.csproj
-│   ├── Interfaces
-│   │   └── IAgent.cs
-│   └── Utilities
-│       └── MessageConnector.cs
 ├── AutogenDevelopmentTeam.Tests
 │   ├── AutogenDevelopmentTeam.Tests.csproj
 │   └── UnitTests
