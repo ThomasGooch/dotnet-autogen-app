@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>AutogenDevelopmentTeam.Tests</RootNamespace>
+    <AssemblyName>AutogenDevelopmentTeam.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageReference Include="NSubstitute" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AutogenDevelopmentTeam.Console/AutogenDevelopmentTeam.Console.csproj" />
+  </ItemGroup>
+
+</Project>

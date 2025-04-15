@@ -1,0 +1,394 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "AutoGen.Core/0.2.3": {
+        "type": "package",
+        "dependencies": {
+          "JsonSchema.Net.Generation": "4.5.1",
+          "Microsoft.Extensions.AI.Abstractions": "9.3.0-preview.1.25161.3",
+          "System.Memory.Data": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AutoGen.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AutoGen.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoGen.Ollama/0.2.3": {
+        "type": "package",
+        "dependencies": {
+          "AutoGen.Core": "0.2.3"
+        },
+        "compile": {
+          "lib/net8.0/AutoGen.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AutoGen.Ollama.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Humanizer.Core/2.14.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Json.More.Net/2.0.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Json.More.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Json.More.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "JsonPointer.Net/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.14.1",
+          "Json.More.Net": "2.0.1.2"
+        },
+        "compile": {
+          "lib/net8.0/JsonPointer.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/JsonPointer.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "JsonSchema.Net/7.2.3": {
+        "type": "package",
+        "dependencies": {
+          "JsonPointer.Net": "5.0.0"
+        },
+        "compile": {
+          "lib/net8.0/JsonSchema.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/JsonSchema.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "JsonSchema.Net.Generation/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.14.1",
+          "JsonSchema.Net": "7.2.3"
+        },
+        "compile": {
+          "lib/net8.0/JsonSchema.Net.Generation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/JsonSchema.Net.Generation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25161.3": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory.Data/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoGen.Core/0.2.3": {
+      "sha512": "DIU1DQmSCa7PO6SjSM4DTfn02OSpmvA+z1NsHsTVtV3J7VUFpB68cLuxvVAsXlaBYSE4flluJaS2IblcepFxdg==",
+      "type": "package",
+      "path": "autogen.core/0.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NUGET.md",
+        "autogen.core.0.2.3.nupkg.sha512",
+        "autogen.core.nuspec",
+        "icon.png",
+        "lib/net8.0/AutoGen.Core.dll",
+        "lib/net8.0/AutoGen.Core.xml",
+        "lib/netstandard2.0/AutoGen.Core.dll",
+        "lib/netstandard2.0/AutoGen.Core.xml"
+      ]
+    },
+    "AutoGen.Ollama/0.2.3": {
+      "sha512": "iagWuNpoucVHxy2pBzFHFbWKnqnujusahPQabJIiJ1dUSse3+5Sx6vvkVp/99dpizifg0hUBYNzIS2S+tWr4tg==",
+      "type": "package",
+      "path": "autogen.ollama/0.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NUGET.md",
+        "autogen.ollama.0.2.3.nupkg.sha512",
+        "autogen.ollama.nuspec",
+        "icon.png",
+        "lib/net8.0/AutoGen.Ollama.dll",
+        "lib/net8.0/AutoGen.Ollama.xml",
+        "lib/netstandard2.0/AutoGen.Ollama.dll",
+        "lib/netstandard2.0/AutoGen.Ollama.xml"
+      ]
+    },
+    "Humanizer.Core/2.14.1": {
+      "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "type": "package",
+      "path": "humanizer.core/2.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.14.1.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/net6.0/Humanizer.dll",
+        "lib/net6.0/Humanizer.xml",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
+      ]
+    },
+    "Json.More.Net/2.0.1.2": {
+      "sha512": "uF3QeiaXEfH92emz0/BWUiNtMSfxIIvgynuB0Bf1vF4s8eWTcZitBx9l+g/FDaJk5XxqBv9buQXizXKQcXFG1w==",
+      "type": "package",
+      "path": "json.more.net/2.0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "json-logo-256.png",
+        "json.more.net.2.0.1.2.nupkg.sha512",
+        "json.more.net.nuspec",
+        "lib/net8.0/Json.More.dll",
+        "lib/net8.0/Json.More.xml",
+        "lib/netstandard2.0/Json.More.dll",
+        "lib/netstandard2.0/Json.More.xml"
+      ]
+    },
+    "JsonPointer.Net/5.0.0": {
+      "sha512": "fm4T5w20AY6C+p5/pJr0vrXRNGgtSfHl34I1LxC9zdPwS9S3j0GiR1Mz/CVPWKDXXGDpCt1APHpCq7kn5adCfA==",
+      "type": "package",
+      "path": "jsonpointer.net/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "json-logo-256.png",
+        "jsonpointer.net.5.0.0.nupkg.sha512",
+        "jsonpointer.net.nuspec",
+        "lib/net8.0/JsonPointer.Net.dll",
+        "lib/net8.0/JsonPointer.Net.xml",
+        "lib/netstandard2.0/JsonPointer.Net.dll",
+        "lib/netstandard2.0/JsonPointer.Net.xml"
+      ]
+    },
+    "JsonSchema.Net/7.2.3": {
+      "sha512": "O3KclMcPVFYTZsTeZBpwtKd/lYrNc3AFR+xi9j3Q4CfhDufOUx25TMMWJOcFRrqVklvKQ4Kl+0UhlNX1iDGoRw==",
+      "type": "package",
+      "path": "jsonschema.net/7.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "json-logo-256.png",
+        "jsonschema.net.7.2.3.nupkg.sha512",
+        "jsonschema.net.nuspec",
+        "lib/net8.0/JsonSchema.Net.dll",
+        "lib/net8.0/JsonSchema.Net.xml",
+        "lib/netstandard2.0/JsonSchema.Net.dll",
+        "lib/netstandard2.0/JsonSchema.Net.xml"
+      ]
+    },
+    "JsonSchema.Net.Generation/4.5.1": {
+      "sha512": "Fr6PxLs4aq/FTigJ1tQPhvZ28aBe9op1pieN6RqJBYPMa0NcZJuqeZSkBeqc1TfkckUwJwfWUQzr9uCkqe80fw==",
+      "type": "package",
+      "path": "jsonschema.net.generation/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "json-logo-256.png",
+        "jsonschema.net.generation.4.5.1.nupkg.sha512",
+        "jsonschema.net.generation.nuspec",
+        "lib/net8.0/JsonSchema.Net.Generation.dll",
+        "lib/net8.0/JsonSchema.Net.Generation.xml",
+        "lib/netstandard2.0/JsonSchema.Net.Generation.dll",
+        "lib/netstandard2.0/JsonSchema.Net.Generation.xml"
+      ]
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25161.3": {
+      "sha512": "1BGoGmGQKwDOkf4I5/Ybt3GL5O+/3JPlZ/AM0uLspHn5DpPb2Wpi9HYKEMjTECFvW+pk+vtFaBYQmNdudl26fw==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.abstractions/9.3.0-preview.1.25161.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.nuspec"
+      ]
+    },
+    "System.Memory.Data/9.0.0": {
+      "sha512": "CxUGXLXdbG7hxdQCRdxQKwq//OtYfxKsKyy6oYjSr9zpSvza5rW9TxokNasSLfmETRKDTfu1zqW8RQKokyKw/Q==",
+      "type": "package",
+      "path": "system.memory.data/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Memory.Data.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "lib/net462/System.Memory.Data.dll",
+        "lib/net462/System.Memory.Data.xml",
+        "lib/net8.0/System.Memory.Data.dll",
+        "lib/net8.0/System.Memory.Data.xml",
+        "lib/net9.0/System.Memory.Data.dll",
+        "lib/net9.0/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.9.0.0.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "AutoGen.Ollama >= 0.2.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/thomas.gooch/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/AutogenDevelopmentTeam.Console.csproj",
+      "projectName": "AutogenDevelopmentTeam.Console",
+      "projectPath": "/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/AutogenDevelopmentTeam.Console.csproj",
+      "packagesPath": "/Users/thomas.gooch/.nuget/packages/",
+      "outputPath": "/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/thomas.gooch/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://mck.jfrog.io/artifactory/api/nuget/v3/cmm-smthop-building-blocks-local/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "AutoGen.Ollama": {
+            "target": "Package",
+            "version": "[0.2.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Tests/obj/Debug/net9.0/AutogenDevelopmentTeam.Tests.csproj.AssemblyReference.cache
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Tests/obj/Debug/net9.0/AutogenDevelopmentTeam.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Tests/obj/Debug/net9.0/AutogenDevelopmentTeam.Tests.AssemblyInfoInputs.cache
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Tests/obj/Debug/net9.0/AutogenDevelopmentTeam.Tests.AssemblyInfo.cs
+/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Tests/obj/Debug/net9.0/AutogenDevelopmentTeam.Tests.csproj.CoreCompileInputs.cache

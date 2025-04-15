@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "nOE1zUO/4XA=",
+  "success": true,
+  "projectFilePath": "/Users/thomas.gooch/Projects/Autogen/dotnet-autogen-app/dotnet-autogen-app/AutogenDevelopmentTeam.Console/AutogenDevelopmentTeam.Console.csproj",
+  "expectedPackageFiles": [
+    "/Users/thomas.gooch/.nuget/packages/autogen.core/0.2.3/autogen.core.0.2.3.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/autogen.ollama/0.2.3/autogen.ollama.0.2.3.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/json.more.net/2.0.1.2/json.more.net.2.0.1.2.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/jsonpointer.net/5.0.0/jsonpointer.net.5.0.0.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/jsonschema.net/7.2.3/jsonschema.net.7.2.3.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/jsonschema.net.generation/4.5.1/jsonschema.net.generation.4.5.1.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/microsoft.extensions.ai.abstractions/9.3.0-preview.1.25161.3/microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",
+    "/Users/thomas.gooch/.nuget/packages/system.memory.data/9.0.0/system.memory.data.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
